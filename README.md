@@ -1,3 +1,18 @@
+# Fork Notes
+
+While the base repo is not having fixes merged i'm using this repo for my own purposes, fixes/changes will be implimated as and when I need them such as the ones allready added by @bstump before me.
+
+## Installation
+
+```
+ "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/pkaratanev/nova-cashier-manager"
+    },
+]
+```
+
 # Laravel Nova / Laravel Cashier
 
 This package adds several components to your Laravel Nova Admin panel to help you with managing customer subscriptions, it works hand
