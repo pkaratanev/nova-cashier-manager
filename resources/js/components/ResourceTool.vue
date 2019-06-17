@@ -25,7 +25,7 @@
 
         methods: {
             loadUserData(){
-                axios.get(`/nova-cashier-tool-api/user/${this.resourceId}/?brief=true`)
+                Nova.request().get(`/nova-cashier-tool-api/user/${this.resourceId}/?brief=true`)
                         .then(response => {
                             this.user = response.data.user;
                             this.subscription = response.data.subscription;
@@ -38,10 +38,10 @@
 </script>
 
 <template>
-    <div>
+    <div class="card mb-6 py-3 px-6">
         <loading-view :loading="loading">
             <p class="text-90" v-if="!subscription">
-                User has no subscription.
+                No subscriptions
             </p>
 
             <div class="flex border-b border-40" v-if="subscription">
