@@ -25,12 +25,12 @@ Looking to see high-level information about your application's Stripe balance an
 
 This package adds a section in the billable resource details view with some information about the subscription:
 
-<img src="https://github.com/themsaid/nova-cashier-tool/blob/master/resource-tool.jpg?raw=true">
+<img src="https://github.com/pkaratanev/nova-cashier-tool/blob/master/resource-tool.jpg?raw=true">
 
 If you want to display more details and be able to manage the subscription you may click the "Manage" link which will lead you
 to a screen with full management capabilities.
 
-<img src="https://github.com/themsaid/nova-cashier-tool/blob/master/billable-screen.jpg?raw=true">
+<img src="https://github.com/pkaratanev/nova-cashier-tool/blob/master/billable-screen.jpg?raw=true">
 
 Currently this package works only with laravel cashier for Stripe, Braintree is not supported yet.
 
@@ -39,7 +39,7 @@ Currently this package works only with laravel cashier for Stripe, Braintree is 
 You may require this package using composer:
 
 ```
-composer require themsaid/nova-cashier-manager
+composer require pkaratanev/nova-cashier-manager
 ```
 
 Next up, you must register the tool with Nova in the tools method of the NovaServiceProvider:
@@ -53,7 +53,7 @@ public function tools()
 {
    return [
         // ...
-        new \Themsaid\CashierTool\CashierTool(),
+        new \pkaratanev\CashierTool\CashierTool(),
     ];
 }
 ```

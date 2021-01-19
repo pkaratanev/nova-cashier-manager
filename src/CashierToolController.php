@@ -1,6 +1,6 @@
 <?php
 
-namespace Themsaid\CashierTool;
+namespace PKaratanev\CashierTool;
 
 use Stripe\Plan;
 use Stripe\Refund;

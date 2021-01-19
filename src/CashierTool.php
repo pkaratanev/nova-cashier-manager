@@ -1,6 +1,6 @@
 <?php
 
-namespace Themsaid\CashierTool;
+namespace PKaratanev\CashierTool;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
