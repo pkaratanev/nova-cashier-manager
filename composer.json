@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pkaratanev\\CashierTool\\": "src/"
+            "PKaratanev\\CashierTool\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pkaratanev\\CashierTool\\CashierToolServiceProvider"
+                "PKaratanev\\CashierTool\\CashierToolServiceProvider"
             ]
         }
     },
